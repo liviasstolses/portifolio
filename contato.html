@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Lara Martinez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagem/logo.png" type="image/png"/>
+</head>
+<body>
+  
+    <header>
+        <div class="container">
+            <h1>Lara Martinez</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Estou à disposição para ajudar você a conquistar sobrancelhas perfeitas. Entre em contato comigo para mais informações, agendamentos ou orçamentos personalizados.</p>
+            
+            <div class="contato">
+                <div class="formulario">
+                    <h3>Formulário de Contato</h3>
+                    <form action="enviar_contato.php" method="POST">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+
+                        <button type="submit">Solicitar Contato</button>
+                    </form>
+                </div>
+
+                <div class="informacoes">
+                    <h3>Meus Contatos</h3>
+                    <p>Para facilitar, você pode também entrar em contato pelos seguintes canais:</p>
+
+                 
+                    <div class="info-item">
+                    
+                        <a href="https://wa.me/5521999999999" target="_blank">Envie uma mensagem pelo WhatsApp</a>
+                    </div>
+
+                
+                    <div class="info-item">
+                        
+                        <a href="mailto:contato@laramartinez.com">contato@laramartinez.com</a>
+                    </div>
+
+                 
+                    <div class="info-item">
+                      
+                        <a href="https://www.instagram.com/laramartinez" target="_blank">@laramartinez</a>
+                    </div>
+
+                    
+                    <div class="info-item">
+                      
+                        <p>Rua da BelezaFlora Nº565, Centro, Ourinhos-SP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lara Martinez - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

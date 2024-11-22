@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Martinez - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagem/logo.png.PNG" type="image/png"/>
+</head>
+<body>
+    <header>
+        <div class="clara">
+            <h1>Lara Martinez</h1>
+            <h3>Beleza sem padrão, impacto sem limites.</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <div class="galeria">
+            <img src="1.png" alt="Trabalho 1">
+            <img src="2.png" alt="Trabalho 2">
+            <img src="3.png" alt="Trabalho 3">
+            <img src="4.png" alt="Trabalho 4">
+            <img src="5.png" alt="Trabalho 5">
+        </div>
+       
+        <br> <br> <br> <br> <br> <br>
+        <h3>Solicite um Orçamento</h3>
+        <form action="enviar_orcamento.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+           
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+           
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+           
+            <button type="submit">Solicitar contato</button>
+        </form>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Lara Martinez</p>
+    </footer>
+</body>
+</html>
